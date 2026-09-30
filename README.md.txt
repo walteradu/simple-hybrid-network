@@ -25,9 +25,13 @@ Each location uses a star topology where end devices such as computers and print
 
 Routers connect the different networks and route IP traffic between them. The routers are interconnected to create the wider hybrid network.
 
+![Full Network Topology](screenshots/main-picture.png)
+
 ## VLANs
 
 VLANs were used to logically separate devices into different networks. This helps organize network traffic and creates separate broadcast domains even when devices are connected to the same physical switch.
+
+![VLANS](screenshots/VLAN.png)
 
 ## Subnetting and Device Addressing
 
@@ -35,11 +39,16 @@ Each network was assigned its own subnet based on the number of devices it neede
 
 Devices were then assigned IP addresses, subnet masks, default gateways, and other required network settings.
 
+![Subnetting](screenshots/subnetting.png)
+
 ## Routing
 
 Router interfaces were configured with IP addresses to serve as gateways for the connected networks.
 
 Static routes were configured so routers could determine how to reach networks that were not directly connected to them.
+
+![Router Interfaces](screenshots/router-interfaces.png)
+![Static Routes](screenshots/static-routes.png)
 
 ## DNS and HTTP
 
@@ -62,8 +71,5 @@ Testing was used to verify:
 - DNS resolution
 - HTTP access
 
-## Project Files
-
-The Cisco Packet Tracer `.pkt` file is included in the `packet-tracer` folder.
-
-Additional screenshots and documentation will be added to demonstrate the network configuration and testing process.
+![Successful Pings](screenshots/successful-pings.png)
+![Successful Connectivity](screenshots/successful-routing.png)
