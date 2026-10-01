@@ -58,6 +58,7 @@ DNS allows users to access resources using names instead of having to remember I
 
 HTTP provides access to web resources hosted on the network.
 
+
 ![DNS Proof](screenshots/dns-proof.png)
 
 ## Testing and Troubleshooting
