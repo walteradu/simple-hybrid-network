@@ -47,8 +47,8 @@ Router interfaces were configured with IP addresses to serve as gateways for the
 
 Static routes were configured so routers could determine how to reach networks that were not directly connected to them.
 
-![Router Interfaces](screenshots/router-interfaces.png)
 ![Static Routes](screenshots/static-routes.png)
+![Router Interfaces](screenshots/router-interfaces.png)
 
 ## DNS and HTTP
 
@@ -57,6 +57,8 @@ DNS and HTTP services were configured to demonstrate basic network services.
 DNS allows users to access resources using names instead of having to remember IP addresses.
 
 HTTP provides access to web resources hosted on the network.
+
+![DNS Proof](screenshots/dns-proof.png)
 
 ## Testing and Troubleshooting
 
@@ -71,5 +73,5 @@ Testing was used to verify:
 - DNS resolution
 - HTTP access
 
-![Successful Pings](screenshots/successful-pings.png)
 ![Successful Connectivity](screenshots/successful-routing.png)
+![Successful Pings](screenshots/successful-pings.png)
